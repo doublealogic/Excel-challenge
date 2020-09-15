@@ -13,8 +13,6 @@ Below I've listed my tasks on each page and what I created.
 
 ### Kickstarter Page
 
-Using the Excel table provided, modify and analyze the data of 4,000 past Kickstarter projects as you attempt to uncover some market trends.
-
 * Used conditional formatting to fill each cell in the `state` column with a different color, depending on whether the associated campaign was successful, failed, or canceled, or is currently live.
 
   * Created a new column O called `Percent Funded` that uses a formula to uncover how much money a campaign made to reach its initial goal.
@@ -47,10 +45,10 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
 
   * Created a new sheet with a pivot table with a column of `state`, rows of `Date Created Conversion`, values based on the count of `state`, and filters based on `parent category` and `Years`.
 
-  * Now create a pivot chart line graph that visualizes this new table.
+  * Now created a pivot chart line graph that visualizes this new table.
 
 ### Goal Outcomes Sheet
-* Create a new sheet with 8 columns:
+* Created a new sheet with 8 columns:
 
   * `Goal`
   * `Number Successful`
@@ -76,21 +74,21 @@ Using the Excel table provided, modify and analyze the data of 4,000 past Kickst
   * 45000 to 49999
   * Greater than or equal to 50000
 
-* Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
+* Used the `COUNTIFS()` formula to count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populated the `Number Successful`, `Number Failed`, and `Number Canceled` columns with this data.
 
-* Add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
+* Added up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, used a mathematical formula to find the percentage of projects that were successful, failed, or canceled per goal range.
 
-* Create a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
+* Created a line chart that graphs the relationship between a goal's amount and its chances at success, failure, or cancellation.
 
-### Summary Statistics Table Page
+### Summary Statistics Table Sheet
 
 If one were to describe a successful crowdfunding campaign, most people would use the number of campaign backers as a metric of success. One of the most efficient ways that data scientists characterize a quantitative metric, such as the number of campaign backers, is by creating a summary statistics table.
 
 For those looking for an additional challenge, you will evaluate the number of backers of successful and unsuccessful campaigns by creating **your own** summary statistics table.
 
-* Create a new worksheet in your workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
+* Created a new worksheet in your workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
 
-* Use Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
+* Used Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
 
   * The mean number of backers.
 
@@ -104,13 +102,17 @@ For those looking for an additional challenge, you will evaluate the number of b
 
   * The standard deviation of the number of backers.
   
+## Kickstart My Chart.docx
 
+* This report in Microsoft Word answers the following questions.
 
-* Create a report in Microsoft Word and answer the following questions.
+### Kickstarter and Data Sheets Analysis
 
 1. Given the provided data, what are three conclusions we can draw about Kickstarter campaigns?
 2. What are some limitations of this dataset?
 3. What are some other possible tables and/or graphs that we could create?
+
+### Summary Statistic Table Analysis
 
 * Use your data to determine whether the mean or the median summarizes the data more meaningfully.
 
