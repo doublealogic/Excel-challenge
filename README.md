@@ -82,11 +82,7 @@ Below I've listed my tasks on each page and what I created.
 
 ### Summary Statistics Table Sheet
 
-If one were to describe a successful crowdfunding campaign, most people would use the number of campaign backers as a metric of success. One of the most efficient ways that data scientists characterize a quantitative metric, such as the number of campaign backers, is by creating a summary statistics table.
-
-For those looking for an additional challenge, you will evaluate the number of backers of successful and unsuccessful campaigns by creating **your own** summary statistics table.
-
-* Created a new worksheet in your workbook, and create a column each for the number of backers of successful campaigns and unsuccessful campaigns.
+* Created a new worksheet and created a column each for the number of backers of successful campaigns and unsuccessful campaigns.
 
 * Used Excel to evaluate the following for successful campaigns, and then for unsuccessful campaigns:
 
